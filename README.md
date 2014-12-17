@@ -1,4 +1,4 @@
-#Kalbox SkyDNS1
+#Kalabox SkyDNS1
 
 This is an implementation of skydns1 for Kalabox. We are forking this repo
 basically just to spit out a binary we can use in our kalabox/skydns container.
@@ -7,10 +7,6 @@ Feel free to use the binary as well but YMMV!
 
 The canonical repo is over here: <http://github.com/skynetservices/skydns1>.
 
-Things are different in version 2, so please try it and report back any problems, success
-stories or whatever. You can report issues here or in the skydns2 repository.
-
-We expect this change to take place somewhere mid May 2014, unless issues pop up.
 
 #SkyDNS [![Build Status](https://travis-ci.org/skynetservices/skydns1.png)](https://travis-ci.org/skynetservices/skydns1)
 *Version 0.2.0*
