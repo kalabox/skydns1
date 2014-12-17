@@ -72,6 +72,7 @@ after-success() {
 # Clean up after the tests.
 #
 before-deploy() {
+  mkdir $TRAVIS_BUILD_DIR/built
   mv $HOME/gopath/bin/skydns1 $TRAVIS_BUILD_DIR/built/skydns
   mv $HOME/gopath/bin/skydnsctl $TRAVIS_BUILD_DIR/built/skydnsctl
 }
